@@ -1,11 +1,8 @@
 import { OpenAI } from "openai";
-
-const API_KEY = "ここにAPIキーを貼り付けてください";
+import { OPEN_AI_API_KEY } from "./strings";
 
 const run = async () => {
-    const openai = new OpenAI({
-        apiKey: API_KEY,
-    });
+    const openai = new OpenAI({ apiKey: OPEN_AI_API_KEY });
     const completion = await openai.chat.completions.create({
         model: "gpt-4o",
         messages: [
