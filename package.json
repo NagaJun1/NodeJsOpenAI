@@ -1,0 +1,27 @@
+{
+  "name": "nodejsopenai",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/NagaJun1/NodeJsOpenAI#readme",
+  "bugs": {
+    "url": "https://github.com/NagaJun1/NodeJsOpenAI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagaJun1/NodeJsOpenAI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "dependencies": {
+    "openai": "^6.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
